@@ -1,0 +1,174 @@
+@import url("nproress.css");
+body {
+  background: #f1f4f5;
+}
+
+.site-navbar .navbar-header .navbar-brand-logo {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  margin-top: -15px;
+}
+
+.site-navbar .navbar-header .navbar-brand {
+  float: none;
+}
+
+.nav-fa {
+  font-size: 1.5em;
+}
+
+.mix-table-container .pagination {
+  float: right;
+}
+
+.panel-bordered>.panel-body {
+  padding-top: 22px;
+}
+
+.panel-body {
+  padding: 22px;
+}
+
+.panel-title {
+  padding: 16px 30px;
+}
+
+.panel-bordered>.panel-heading>.panel-title {
+  padding-bottom: 16px;
+}
+
+.site-menu-item>.nav-link.router-link-exact-active {
+  background-color: #1f292e;
+  /* color: #d2d2e0; */
+}
+
+.site-menu-icon{
+  font-size: 2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.thumb-img {
+  background: #1f292e;
+  padding: 10px;
+}
+
+.panel>.table-responsive .table.text-center>tbody>tr>td:first-child, .panel>.table-responsive .table.text-center>thead>tr>th:first-child {
+  padding-left: unset;
+}
+
+.card-footer {
+  background: #fff;
+}
+
+.quick-search-form {
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.quick-search-form .input-group {
+  border-radius: 0;
+  width: 80%;
+}
+
+.quick-search-form .form-control {
+  border-radius: 0;
+  border: 1px solid #e4eaec;
+}
+
+.quick-search-form .form-control:focus {
+  border-color: #11c26d;
+  background-color: #fff;
+}
+
+.quick-search-form .btn-quick-search {
+  padding: 6px 16px;
+}
+
+.quick-search-form-input>.form-control, .quick-search-form-input>.input-group-addon, .quick-search-form-input>.input-group-btn>.btn {
+  height: 3rem;
+}
+
+.site-menubar-footer {
+  position: fixed;
+  bottom: 0;
+  z-index: 1400;
+  display: block;
+  width: 130px;
+}
+
+/* -------------------- dark them */
+
+body.theme-dark, .theme-dark .page {
+  background: #151b1e;
+  color: #c2cfd6
+}
+
+.theme-dark .site-navbar .navbar-container, .theme-dark .thumb-view .card-footer, .theme-dark .panel {
+  background: #263238;
+}
+
+.theme-dark .site-navbar .nav-link:hover, .theme-dark .site-navbar .nav-link:active, .theme-dark .site-navbar .nav-link:focus {
+  background: #151b1e
+}
+
+.theme-dark .quick-search-form .form-control {
+  background-color: #151b1e;
+  border: 1px solid #151b1e;
+}
+
+.theme-dark .quick-search-form .form-control:focus {
+  border-color: #11c26d;
+  background-color: #151b1e;
+}
+
+.theme-dark .thumb-view .cover-image {
+  background: #34444c
+}
+
+.theme-dark .thumb-view .counter-number, .theme-dark .panel-title, .theme-dark .panel-body, .theme-dark h4, .theme-dark .table thead th {
+  color: #c2cfd6
+}
+
+.theme-dark .panel-bordered>.panel-heading {
+  border-bottom: solid 1px #151b1e;
+  background: #1f292e;
+}
+
+.theme-dark .panel {
+  /* border: solid 1px #34444c; */
+  /* border: solid 1px #263238 */
+}
+
+.theme-dark .table-bordered {
+  /* border: solid 1px #151b1e; */
+  border: none;
+  background: transparent;
+}
+
+.theme-dark .table-bordered td:first-child, .theme-dark .table-bordered th:first-child {
+  border-left-color: transparent;
+}
+
+.theme-dark .table-bordered td:last-child, .theme-dark .table-bordered th:last-child {
+  border-right-color: transparent;
+}
+
+.theme-dark .table-bordered td, .theme-dark .table-bordered th {
+  border: solid 1px #151b1e;
+}
+
+.theme-dark .table-striped tbody tr:nth-of-type(odd) {
+  background: #1f292e;
+}
+
+.theme-dark .table-hover tbody tr:hover {
+  background: #151b1e
+}
+
+.theme-dark .page-link, .theme-dark .page-item.disabled .page-link {
+  border-color: #151b1e;
+}
