@@ -1,4 +1,4 @@
-# GeekCash Explorer
+# Blockchain Explorer with Vue.js, Node.js and MongoDB
 
 An open source block explorer written in Vue.js.
 
